@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [tailwindcss()],
   build: {
     ssr: `./api/index.ts`,
-    outDir: `dist`,
+    outDir: `dist/`,
   },
   server: {
     port: 3100,
