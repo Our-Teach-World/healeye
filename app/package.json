@@ -8,7 +8,8 @@
 		"dev:server": "cross-env NODE_ENV=development tsx watch api/index.ts",
 		"dev": "concurrently \"npm run dev:vite\" \"npm run dev:server\"",
 		"build": "vite build",
-		"preview": "vite preview --host 0.0.0.0 --port $PORT"
+		"preview": "vite preview --host 0.0.0.0 --port $PORT",
+		"start": "node dist/index.js"
 
 	},
 	"dependencies": {
